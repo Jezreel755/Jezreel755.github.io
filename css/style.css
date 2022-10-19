@@ -15,12 +15,134 @@ body {
     font-size: 30px;
 }
 
+..wrapper {
+
+  height: 100vh;
+
+  /*This part is important for centering*/
+
+   position: absolute;
+
+   padding-top: 50px;
+
+   left: 50%;
+
+   top: 50%;
+
+   transform: translate(-50%, -50%);
+
+}
+
 .typing {
+
   width: 23ch;
+
   animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+
   white-space: nowrap;
+
   overflow: hidden;
+
   border-right: 3px solid;
+
   font-family: monospace;
+
   font-size: 2em;
+
+}
+
+@keyframes typing {
+
+  from {
+
+    width: 0
+
+  }
+
+}
+
+@keyframes blink {
+
+  50% {
+
+    border-color: transparent
+
+  }
+
+}
+
+.typingmed {
+
+  width: 22ch;
+
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  border-right: 3px solid;
+
+  font-family: monospace;
+
+  font-size: 2em;
+
+}
+
+@keyframes typingmed {
+
+  from {
+
+    width: 0
+
+  }
+
+}
+
+@keyframes blink {
+
+  50% {
+
+    border-color: transparent
+
+  }
+
+}
+
+.typingshort {
+
+  width: 18ch;
+
+  animation: typing 2s steps(18), blink .5s step-end infinite alternate;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  border-right: 3px solid;
+
+  font-family: monospace;
+
+  font-size: 2em;
+
+}
+
+@keyframes typingshort {
+
+  from {
+
+    width: 0
+
+  }
+
+}
+
+@keyframes blink {
+
+  50% {
+
+    border-color: transparent
+
+  }
+
 }
