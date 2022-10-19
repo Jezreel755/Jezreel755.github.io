@@ -6,16 +6,11 @@ body {
 
 .text {
     font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.text {
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    font-color: white;
     font-size: 30px;
 }
 
-..wrapper {
+.wrapper {
 
   height: 100vh;
 
