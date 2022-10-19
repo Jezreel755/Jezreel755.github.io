@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap')
 
 body {
-  background-color: #000000;
+  background-color: black;
 }
 
 .text {
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: white;
 }
 
 .text {
