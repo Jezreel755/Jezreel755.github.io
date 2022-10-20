@@ -1,0 +1,20 @@
+.box {
+    position: absolute;
+    z-index: 9;
+    background-color:  #1a1a23;
+    border: 1px solid #100f19;
+    text-align: center;
+    width: 30%;
+    margin-left:35%;
+     margin-top: 100px
+}
+.textbox {
+    position: absolute;
+    z-index: 9;
+    background-color:  #1a1a23;
+    border: 1px solid #100f19;
+    text-align: center;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 100px
+}
