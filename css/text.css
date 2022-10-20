@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap')
+A@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap')
 
 .text {
     font-family: 'Roboto', sans-serif;
@@ -145,4 +145,5 @@
     bottom:8px;
     width:100%;
     padding: 8px;
+    webkit-tap-highlight-color: transparent;
 }
