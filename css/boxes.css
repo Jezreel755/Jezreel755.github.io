@@ -18,3 +18,8 @@
     margin-left:25%;
     margin-top: 100px
 }
+.windowtext {
+    font-family: 'Consolas', sans-serif;
+    color: white;
+    text-decoration: none;
+}
