@@ -147,8 +147,6 @@
     padding: 8px;
 }
 
-a {
-    webkit-tap-highlight-color: transparent;
-    text-decoration: none;
+.link {
     color: white;
 }
