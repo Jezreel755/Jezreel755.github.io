@@ -1,11 +1,11 @@
 .box {
     position: absolute;
     z-index: 9;
-    background-color:  #1a1a23;
+    background-color:  3d3d3d;
     border: 1px solid #100f19;
     text-align: center;
     width: 30%;
-    margin-left:35%;
+    margin-left:25%;
      margin-top: 100px
 }
 .textbox {
